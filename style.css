@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bebas+Neue&family=Lobster&family=Open+Sans:ital,wght@1,800&family=Peralta&family=Playball&display=swap');
+body{
+    background-color: blanchedalmond;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Balsamiq Sans', cursive;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 50px;
+    /* border: 2px solid white; */
+}
+.brand{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid white; */
+    font-weight: bolder;
+    font-size: larger;
+}
+.container{
+    min-height: 38vh;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    display: flex;
+    width: 70%;
+    margin: 22px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg-img.jpg');
+
+}
+.songItem{
+    display: flex;
+    width : 20vw;
+    height: 31px;
+    background-color: white;
+    color: black;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.songItem img{
+    width: 30px;
+    margin: 0 10px;
+    border-radius: 34px;
+}
+.songItemContainer{
+    margin: 70px 0;
+}
+.songInfo{
+    position: absolute;
+    left: 9vw;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.timestamp{
+    padding: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.bottom{
+    position: sticky;
+    height: 114px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
